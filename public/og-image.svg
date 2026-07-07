@@ -1,0 +1,41 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1200" height="630" fill="#F8FAFC"/>
+  <rect x="0" y="0" width="1200" height="630" fill="url(#heroGrad)" fill-opacity="0.05"/>
+  <defs>
+    <linearGradient id="heroGrad" x1="0" y1="0" x2="1200" y2="630">
+      <stop offset="0%" stop-color="#2563EB"/>
+      <stop offset="100%" stop-color="#14B8A6"/>
+    </linearGradient>
+  </defs>
+  <!-- Logo -->
+  <rect x="100" y="80" width="80" height="80" rx="20" fill="url(#heroGrad)"/>
+  <path d="M120 180L160 130" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <path d="M125 115H165V155" stroke="white" stroke-width="5" stroke-linecap="round"/>
+  <circle cx="185" cy="175" r="8" fill="white" fill-opacity="0.4"/>
+  <circle cx="105" cy="175" r="8" fill="white" fill-opacity="0.4"/>
+  <!-- Title -->
+  <text x="210" y="130" font-family="system-ui, sans-serif" font-weight="800" font-size="42" fill="#0F172A">Asia Placements</text>
+  <text x="210" y="160" font-family="system-ui, sans-serif" font-weight="500" font-size="16" fill="#6B7280" letter-spacing="4">RECRUITMENT · HR · STAFFING</text>
+  <!-- Headline -->
+  <text x="100" y="280" font-family="system-ui, sans-serif" font-weight="800" font-size="64" fill="#0F172A">Connecting Talent</text>
+  <text x="100" y="350" font-family="system-ui, sans-serif" font-weight="800" font-size="64" fill="url(#heroGrad)">with Opportunity</text>
+  <!-- Stats -->
+  <rect x="100" y="420" width="200" height="100" rx="16" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="120" y="460" font-family="system-ui, sans-serif" font-weight="800" font-size="36" fill="#2563EB">500+</text>
+  <text x="120" y="490" font-family="system-ui, sans-serif" font-weight="500" font-size="14" fill="#6B7280">Happy Clients</text>
+  <rect x="330" y="420" width="200" height="100" rx="16" fill="white" stroke="#E5E7EB" stroke-width="1"/>
+  <text x="350" y="460" font-family="system-ui, sans-serif" font-weight="800" font-size="36" fill="#2563EB">5K+</text>
+  <text x="350" y="490" font-family="system-ui, sans-serif" font-weight="500" font-size="14" fill="#6B7280">Placements Made</text>
+  <!-- Right side decoration -->
+  <rect x="650" y="150" width="450" height="330" rx="24" fill="white" stroke="#E5E7EB" stroke-width="1" shadow="0 4 20 rgba(0,0,0,0.06)"/>
+  <rect x="690" y="190" width="370" height="120" rx="16" fill="url(#heroGrad)" fill-opacity="0.08"/>
+  <circle cx="875" cy="250" r="40" fill="url(#heroGrad)" fill-opacity="0.15"/>
+  <circle cx="875" cy="250" r="25" fill="url(#heroGrad)"/>
+  <text x="855" y="258" font-family="system-ui, sans-serif" font-weight="800" font-size="24" fill="white" text-anchor="middle">AP</text>
+  <text x="730" y="360" font-family="system-ui, sans-serif" font-weight="700" font-size="22" fill="#0F172A">Your Growth Partner</text>
+  <text x="730" y="385" font-family="system-ui, sans-serif" font-weight="400" font-size="14" fill="#6B7280">End-to-end recruitment &amp; HR solutions</text>
+  <!-- Bottom badge -->
+  <rect x="100" y="540" width="300" height="40" rx="20" fill="#DBEAFE"/>
+  <circle cx="120" cy="560" r="5" fill="#2563EB"/>
+  <text x="135" y="565" font-family="system-ui, sans-serif" font-weight="600" font-size="14" fill="#2563EB">Trusted Recruitment Partner Since 2015</text>
+</svg>

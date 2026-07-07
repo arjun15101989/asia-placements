@@ -1,0 +1,23 @@
+services:
+  - type: web
+    name: asia-placements
+    env: node
+    plan: free
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: NEXT_PUBLIC_SUPABASE_URL
+        sync: false
+      - key: NEXT_PUBLIC_SUPABASE_ANON_KEY
+        sync: false
+      - key: RESEND_API_KEY
+        sync: false
+      - key: CONTACT_EMAIL
+        value: hr@asiaplacements.org
+      - key: NEXT_PUBLIC_GA_ID
+        sync: false
+      - key: NEXT_PUBLIC_CLARITY_ID
+        sync: false
