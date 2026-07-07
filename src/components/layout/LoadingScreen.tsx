@@ -35,7 +35,7 @@ export function LoadingScreen() {
                 src="/logo-original.jpg"
                 alt="Asia Placements"
                 width={160}
-                height={53}
+                height={100}
                 className="object-contain"
                 priority
               />
