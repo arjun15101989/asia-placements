@@ -88,20 +88,9 @@ export default function Home() {
             </motion.p>
 
             <motion.div
-              initial={{ opacity: 0, y: 20 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: 0.5 }}
-              className="mt-8"
-            >
-              <a href="mailto:hr@asiaplacements.org" className="inline-flex items-center gap-2 px-8 py-3.5 bg-[#DC2626] text-white font-semibold rounded-xl hover:bg-[#B91C1C] transition-all shadow-lg shadow-red-500/20 hover:shadow-xl">
-                <Mail className="w-5 h-5" /> Connect with HR
-              </a>
-            </motion.div>
-
-            <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
-              transition={{ delay: 0.7 }}
+              transition={{ delay: 0.5 }}
               className="mt-12 flex flex-wrap gap-8"
             >
               <div><div className="text-2xl font-bold text-[#DC2626]">500+</div><div className="text-xs text-[#6B7280]">Clients</div></div>

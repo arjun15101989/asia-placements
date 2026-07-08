@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react"
 import { motion } from "framer-motion"
-import { Menu, X, Mail } from "lucide-react"
+import { Menu, X } from "lucide-react"
 import { Logo } from "@/components/branding/Logo"
 import { cn } from "@/lib/utils"
 
@@ -48,13 +48,7 @@ export function Navigation() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="mailto:hr@asiaplacements.org"
-              className="flex items-center gap-2 px-5 py-2.5 text-sm font-semibold bg-[#DC2626] text-white rounded-xl hover:bg-[#B91C1C] transition-all shadow-lg shadow-red-500/20"
-            >
-              <Mail className="w-4 h-4" />
-              Connect with HR
-            </a>
+
           </div>
 
           <button
@@ -83,13 +77,7 @@ export function Navigation() {
                 {link.label}
               </a>
             ))}
-            <a
-              href="mailto:hr@asiaplacements.org"
-              onClick={() => setMobileOpen(false)}
-              className="mt-4 flex items-center justify-center gap-2 py-3 bg-[#DC2626] text-white font-semibold rounded-xl"
-            >
-              <Mail className="w-4 h-4" /> Connect with HR
-            </a>
+
           </div>
         </motion.div>
       )}
