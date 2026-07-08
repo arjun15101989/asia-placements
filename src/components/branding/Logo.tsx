@@ -1,6 +1,5 @@
 "use client"
 
-import Image from "next/image"
 import { cn } from "@/lib/utils"
 import { motion } from "framer-motion"
 
@@ -25,13 +24,12 @@ export function Logo({ className, size = "md" }: LogoProps) {
       animate={{ opacity: 1, x: 0 }}
       transition={{ duration: 0.6, ease: "easeOut" }}
     >
-      <Image
+      <img
         src="/logo-original.jpg"
         alt="Asia Placements"
         width={dims.width}
         height={dims.height}
         className="object-contain"
-        priority
       />
     </motion.div>
   )

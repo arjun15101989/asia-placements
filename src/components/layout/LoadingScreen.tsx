@@ -2,7 +2,6 @@
 
 import { motion, AnimatePresence } from "framer-motion"
 import { useEffect, useState } from "react"
-import Image from "next/image"
 
 export function LoadingScreen() {
   const [isLoading, setIsLoading] = useState(true)
@@ -31,13 +30,12 @@ export function LoadingScreen() {
               animate={{ scale: [1, 1.05, 1] }}
               transition={{ duration: 1.5, repeat: Infinity, ease: "easeInOut" }}
             >
-              <Image
+              <img
                 src="/logo-original.jpg"
                 alt="Asia Placements"
                 width={160}
                 height={100}
                 className="object-contain"
-                priority
               />
             </motion.div>
             <motion.div
